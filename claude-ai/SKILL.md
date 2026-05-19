@@ -95,9 +95,10 @@ read `references/implementation-templates.md` and copy the relevant template ver
 
 ## Output format
 
-1. Output the complete HTML in a single ` ```html ` code block.
+1. Create the HTML as a **downloadable file artifact** named `YYYY-MM-DD-slug.html`
+   (e.g. `2026-05-19-ontology-intro.html`). Do NOT wrap in a code block.
 2. Make it genuinely polished — real content, working interactions, obvious hierarchy.
-3. After the code block, immediately ask:
+3. After creating the file, immediately ask:
 
 ---
 
