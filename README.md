@@ -31,28 +31,32 @@ Claude Code가 이 README를 읽고 `claude-code/html.md`를 `.claude/commands/h
 
 ---
 
-### claude.ai (웹) — 수동 등록 필요
+### claude.ai (웹) — zip 파일로 설치 (권장)
 
-claude.ai 웹은 Skills UI를 AI가 직접 조작할 수 없어서, **사용자가 직접 붙여넣기**를 해야 합니다.
+**1단계: zip 다운로드**
 
-**등록 방법:**
+이 페이지 상단의 `Code` 버튼 → `Download ZIP` 클릭
 
-1. [claude.ai/customize/skills](https://claude.ai/customize/skills) 접속
-2. `+` 버튼 클릭
-3. **이름** 필드에 입력: `html-generator`
-4. **설명** 필드에 입력:
+**2단계: claude.ai 대화창에 업로드 후 아래 문장 전송**
+
+```
+첨부한 zip 파일 안의 claude-ai/SKILL.md 내용을 읽고
+claude.ai 스킬 등록 방법을 단계별로 안내해줘
+```
+
+Claude가 zip 안의 SKILL.md를 읽고 등록 절차를 안내해 줍니다.
+
+**직접 등록하려면:**
+
+1. [claude.ai/customize/skills](https://claude.ai/customize/skills) 접속 → `+` 버튼 클릭
+2. **이름**: `html-generator`
+3. **설명**:
    ```
    HTML 파일을 만들어줘, 아티클 만들어줘, 슬라이드 만들어줘, 다이어그램 그려줘,
    리포트 써줘, 정리해서 HTML로 등 HTML 생성이 필요한 모든 요청에 사용.
    생성 후 GitHub Actions 자동 배포 설정 여부를 물어봄.
    ```
-5. **내용** 필드에 [`claude-ai/SKILL.md`](https://github.com/imuzikr/open-make-html/blob/main/claude-ai/SKILL.md) 전체 내용 붙여넣기
-
-> Claude에게 안내를 받고 싶다면 아래 문장을 대화창에 입력하세요:
-> ```
-> https://github.com/imuzikr/open-make-html 의 claude-ai/SKILL.md 내용을 읽고
-> claude.ai 스킬 등록 방법을 단계별로 안내해줘
-> ```
+4. **내용**: [`claude-ai/SKILL.md`](https://github.com/imuzikr/open-make-html/blob/main/claude-ai/SKILL.md) 전체 내용 붙여넣기
 
 ---
 
