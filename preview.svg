@@ -1,0 +1,190 @@
+<svg width="720" height="440" viewBox="0 0 720 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="win"><rect width="720" height="440" rx="12"/></clipPath>
+  </defs>
+
+  <!-- Outer shadow layer -->
+  <rect x="2" y="4" width="720" height="440" rx="12" fill="#1a1a18" opacity="0.08"/>
+  <rect x="1" y="2" width="720" height="440" rx="12" fill="#1a1a18" opacity="0.05"/>
+
+  <g clip-path="url(#win)">
+    <!-- Background -->
+    <rect width="720" height="440" fill="#f5f2ed"/>
+
+    <!-- Chrome bar -->
+    <rect width="720" height="38" fill="#e8e5e0"/>
+    <line x1="0" y1="38" x2="720" y2="38" stroke="#dedad2" stroke-width="1"/>
+
+    <!-- Traffic lights -->
+    <circle cx="20" cy="19" r="5.5" fill="#ff5f57"/>
+    <circle cx="37" cy="19" r="5.5" fill="#febc2e"/>
+    <circle cx="54" cy="19" r="5.5" fill="#28c840"/>
+
+    <!-- Title -->
+    <text x="360" y="23" text-anchor="middle" font-size="11" fill="#6b6a63"
+          font-family="'SF Mono','Fira Code',Consolas,'Liberation Mono',monospace">html-generator · open-make-html</text>
+
+    <!-- ══════════ COLOR ══════════ -->
+    <text x="32" y="72" font-size="9" letter-spacing="2" fill="#a09f97"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-weight="600">COLOR</text>
+
+    <!-- clay -->
+    <rect x="32"  y="80" width="52" height="44" rx="6" fill="#d95f2b"/>
+    <text x="32"  y="136" font-size="9.5" fill="#6b6a63" font-family="-apple-system,sans-serif">clay</text>
+    <text x="32"  y="148" font-size="8.5" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">#D95F2B</text>
+
+    <!-- olive -->
+    <rect x="94"  y="80" width="52" height="44" rx="6" fill="#3a6b4a"/>
+    <text x="94"  y="136" font-size="9.5" fill="#6b6a63" font-family="-apple-system,sans-serif">olive</text>
+    <text x="94"  y="148" font-size="8.5" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">#3A6B4A</text>
+
+    <!-- sky -->
+    <rect x="156" y="80" width="52" height="44" rx="6" fill="#2d5a8e"/>
+    <text x="156" y="136" font-size="9.5" fill="#6b6a63" font-family="-apple-system,sans-serif">sky</text>
+    <text x="156" y="148" font-size="8.5" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">#2D5A8E</text>
+
+    <!-- oat -->
+    <rect x="218" y="80" width="52" height="44" rx="6" fill="#eceae4" stroke="#dedad2" stroke-width="1"/>
+    <text x="218" y="136" font-size="9.5" fill="#6b6a63" font-family="-apple-system,sans-serif">oat</text>
+    <text x="218" y="148" font-size="8.5" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">#ECEAE4</text>
+
+    <!-- slate -->
+    <rect x="280" y="80" width="52" height="44" rx="6" fill="#1a1a18"/>
+    <text x="280" y="136" font-size="9.5" fill="#6b6a63" font-family="-apple-system,sans-serif">slate</text>
+    <text x="280" y="148" font-size="8.5" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">#1A1A18</text>
+
+    <!-- g500 -->
+    <rect x="342" y="80" width="52" height="44" rx="6" fill="#6b6a63"/>
+    <text x="342" y="136" font-size="9.5" fill="#6b6a63" font-family="-apple-system,sans-serif">g500</text>
+    <text x="342" y="148" font-size="8.5" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">#6B6A63</text>
+
+    <!-- g300 -->
+    <rect x="404" y="80" width="52" height="44" rx="6" fill="#a09f97"/>
+    <text x="404" y="136" font-size="9.5" fill="#6b6a63" font-family="-apple-system,sans-serif">g300</text>
+    <text x="404" y="148" font-size="8.5" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">#A09F97</text>
+
+    <!-- white -->
+    <rect x="466" y="80" width="52" height="44" rx="6" fill="#ffffff" stroke="#dedad2" stroke-width="1"/>
+    <text x="466" y="136" font-size="9.5" fill="#6b6a63" font-family="-apple-system,sans-serif">white</text>
+    <text x="466" y="148" font-size="8.5" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">#FFFFFF</text>
+
+    <!-- Divider -->
+    <line x1="32" y1="160" x2="688" y2="160" stroke="#dedad2" stroke-width="1"/>
+
+    <!-- ══════════ TYPE ══════════ -->
+    <text x="32" y="178" font-size="9" letter-spacing="2" fill="#a09f97"
+          font-family="-apple-system,sans-serif" font-weight="600">TYPE</text>
+
+    <text x="32" y="208" font-size="23" font-weight="700" fill="#1a1a18"
+          font-family="Georgia,'Times New Roman',serif" font-style="italic">Display 32 serif</text>
+    <text x="32" y="229" font-size="16" font-weight="600" fill="#1a1a18"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Heading 20 sans</text>
+    <text x="32" y="247" font-size="13" fill="#1a1a18"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Body 15 sans regular</text>
+    <text x="32" y="263" font-size="11" fill="#6b6a63"
+          font-family="'SF Mono','Fira Code',Consolas,monospace">Mono 13 ui-monospace</text>
+
+    <!-- Token labels -->
+    <text x="318" y="208" font-size="10" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">--text-display</text>
+    <text x="318" y="229" font-size="10" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">--text-heading</text>
+    <text x="318" y="247" font-size="10" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">--text-body</text>
+    <text x="318" y="263" font-size="10" fill="#a09f97" font-family="'SF Mono',Consolas,monospace">--text-mono</text>
+
+    <!-- ══════════ BUTTON ══════════ -->
+    <text x="536" y="178" font-size="9" letter-spacing="2" fill="#a09f97"
+          font-family="-apple-system,sans-serif" font-weight="600">BUTTON</text>
+
+    <!-- Primary -->
+    <rect x="536" y="186" width="152" height="34" rx="7" fill="#d95f2b"/>
+    <text x="612" y="208" text-anchor="middle" font-size="12.5" font-weight="600" fill="#ffffff"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Primary</text>
+
+    <!-- Secondary -->
+    <rect x="536" y="228" width="152" height="34" rx="7" fill="transparent" stroke="#1a1a18" stroke-width="1.5"/>
+    <text x="612" y="250" text-anchor="middle" font-size="12.5" font-weight="600" fill="#1a1a18"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Secondary</text>
+
+    <!-- Ghost -->
+    <rect x="536" y="270" width="152" height="34" rx="7" fill="#eceae4"/>
+    <text x="612" y="292" text-anchor="middle" font-size="12.5" font-weight="500" fill="#6b6a63"
+          font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">Ghost</text>
+
+    <!-- Divider -->
+    <line x1="32" y1="318" x2="688" y2="318" stroke="#dedad2" stroke-width="1"/>
+
+    <!-- ══════════ HTML TYPES ══════════ -->
+    <text x="32" y="336" font-size="9" letter-spacing="2" fill="#a09f97"
+          font-family="-apple-system,sans-serif" font-weight="600">HTML TYPES</text>
+
+    <!-- 6 cards: width=101, gap=10, start x=32 -->
+
+    <!-- article -->
+    <rect x="32"  y="346" width="101" height="68" rx="7" fill="#ffffff" stroke="#dedad2" stroke-width="1"/>
+    <rect x="32"  y="346" width="101" height="22" rx="7" fill="#faeee7"/>
+    <rect x="32"  y="360" width="101" height="8"  fill="#faeee7"/>
+    <text x="82"  y="362" text-anchor="middle" font-size="9" font-weight="600" fill="#d95f2b"
+          font-family="-apple-system,sans-serif">article</text>
+    <rect x="46"  y="377" width="48" height="4" rx="2" fill="#dedad2"/>
+    <rect x="46"  y="385" width="62" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="46"  y="392" width="54" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="46"  y="399" width="44" height="3" rx="1.5" fill="#eceae4"/>
+
+    <!-- report -->
+    <rect x="143" y="346" width="101" height="68" rx="7" fill="#ffffff" stroke="#dedad2" stroke-width="1"/>
+    <rect x="143" y="346" width="101" height="22" rx="7" fill="#e5eef7"/>
+    <rect x="143" y="360" width="101" height="8"  fill="#e5eef7"/>
+    <text x="193" y="362" text-anchor="middle" font-size="9" font-weight="600" fill="#2d5a8e"
+          font-family="-apple-system,sans-serif">report</text>
+    <rect x="157" y="377" width="48" height="4" rx="2" fill="#dedad2"/>
+    <rect x="157" y="385" width="62" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="157" y="392" width="54" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="157" y="399" width="44" height="3" rx="1.5" fill="#eceae4"/>
+
+    <!-- slide -->
+    <rect x="254" y="346" width="101" height="68" rx="7" fill="#ffffff" stroke="#dedad2" stroke-width="1"/>
+    <rect x="254" y="346" width="101" height="22" rx="7" fill="#e6f0e9"/>
+    <rect x="254" y="360" width="101" height="8"  fill="#e6f0e9"/>
+    <text x="304" y="362" text-anchor="middle" font-size="9" font-weight="600" fill="#3a6b4a"
+          font-family="-apple-system,sans-serif">slide</text>
+    <rect x="268" y="377" width="48" height="4" rx="2" fill="#dedad2"/>
+    <rect x="268" y="385" width="62" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="268" y="392" width="54" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="268" y="399" width="44" height="3" rx="1.5" fill="#eceae4"/>
+
+    <!-- diagram -->
+    <rect x="365" y="346" width="101" height="68" rx="7" fill="#ffffff" stroke="#dedad2" stroke-width="1"/>
+    <rect x="365" y="346" width="101" height="22" rx="7" fill="#fdf5d9"/>
+    <rect x="365" y="360" width="101" height="8"  fill="#fdf5d9"/>
+    <text x="415" y="362" text-anchor="middle" font-size="9" font-weight="600" fill="#8a6a00"
+          font-family="-apple-system,sans-serif">diagram</text>
+    <rect x="379" y="377" width="48" height="4" rx="2" fill="#dedad2"/>
+    <rect x="379" y="385" width="62" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="379" y="392" width="54" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="379" y="399" width="44" height="3" rx="1.5" fill="#eceae4"/>
+
+    <!-- spec -->
+    <rect x="476" y="346" width="101" height="68" rx="7" fill="#ffffff" stroke="#dedad2" stroke-width="1"/>
+    <rect x="476" y="346" width="101" height="22" rx="7" fill="#fdecea"/>
+    <rect x="476" y="360" width="101" height="8"  fill="#fdecea"/>
+    <text x="526" y="362" text-anchor="middle" font-size="9" font-weight="600" fill="#b03a2e"
+          font-family="-apple-system,sans-serif">spec</text>
+    <rect x="490" y="377" width="48" height="4" rx="2" fill="#dedad2"/>
+    <rect x="490" y="385" width="62" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="490" y="392" width="54" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="490" y="399" width="44" height="3" rx="1.5" fill="#eceae4"/>
+
+    <!-- prototype -->
+    <rect x="587" y="346" width="101" height="68" rx="7" fill="#ffffff" stroke="#dedad2" stroke-width="1"/>
+    <rect x="587" y="346" width="101" height="22" rx="7" fill="#eceae4"/>
+    <rect x="587" y="360" width="101" height="8"  fill="#eceae4"/>
+    <text x="637" y="362" text-anchor="middle" font-size="9" font-weight="600" fill="#6b6a63"
+          font-family="-apple-system,sans-serif">prototype</text>
+    <rect x="601" y="377" width="48" height="4" rx="2" fill="#dedad2"/>
+    <rect x="601" y="385" width="62" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="601" y="392" width="54" height="3" rx="1.5" fill="#eceae4"/>
+    <rect x="601" y="399" width="44" height="3" rx="1.5" fill="#eceae4"/>
+
+    <!-- Outer border -->
+    <rect width="720" height="440" rx="12" fill="none" stroke="#dedad2" stroke-width="1"/>
+  </g>
+</svg>

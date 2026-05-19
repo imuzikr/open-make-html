@@ -1,5 +1,7 @@
 # HTML Generator Skill
 
+![preview](preview.svg)
+
 AI가 HTML 파일을 생성하고, 선택적으로 GitHub Actions로 자동 배포까지 설정해주는 스킬입니다.
 
 ## 무엇을 할 수 있나요?
