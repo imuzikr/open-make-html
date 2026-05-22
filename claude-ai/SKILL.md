@@ -307,9 +307,8 @@ def render_cards(folders):
                     f" style='background:linear-gradient(135deg,#{c1},#{c2})'>"
                     f"<span class='card-thumb-text'>{safe_title}</span></div>"
                 )
-            filename = Path(f['path']).name
             html += f"""
-    <div class="card" data-folder="{folder}" onclick="window.location='{f['path']}'">
+    <a class="card" href="{f['path']}" data-folder="{folder}">
       {thumb}
       <div class="card-body">
         <div class="card-header">
@@ -319,14 +318,7 @@ def render_cards(folders):
         <h3 class="card-title">{f['title']}</h3>
         {desc_str}
       </div>
-      <a class="card-dl" href="{f['path']}" download="{filename}"
-         title="다운로드" onclick="event.stopPropagation()">
-        <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" width="14" height="14">
-          <path d="M8 2v8M5 7l3 3 3-3M2 12h12" stroke="currentColor" stroke-width="1.5"
-                stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
-    </div>"""
+    </a>"""
     return html
 
 
@@ -370,11 +362,8 @@ header .meta{{font-size:var(--text-sm);color:var(--color-text-faint);margin-left
 .search input{{padding:var(--space-2) var(--space-4);border:1px solid var(--color-border);border-radius:var(--radius-md);font-size:var(--text-sm);background:var(--color-bg-card);color:var(--color-text);outline:none;width:200px;}}
 .search input:focus{{border-color:var(--color-accent)}}
 .grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:var(--space-4)}}
-.card{{background:var(--color-bg-card);border:1px solid var(--color-border);border-radius:var(--radius-lg);color:inherit;display:flex;flex-direction:column;overflow:hidden;position:relative;box-shadow:var(--shadow-sm);transition:all 180ms ease;cursor:pointer;}}
+.card{{background:var(--color-bg-card);border:1px solid var(--color-border);border-radius:var(--radius-lg);text-decoration:none;color:inherit;display:flex;flex-direction:column;overflow:hidden;box-shadow:var(--shadow-sm);transition:all 180ms ease;}}
 .card:hover{{box-shadow:var(--shadow-md);border-color:var(--color-accent);transform:translateY(-2px)}}
-.card-dl{{position:absolute;top:var(--space-3);right:var(--space-3);width:32px;height:32px;border-radius:9999px;background:rgba(255,255,255,0.92);color:var(--color-text-muted);display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:var(--shadow-sm);transition:all 140ms ease;opacity:0;}}
-.card:hover .card-dl{{opacity:1}}
-.card-dl:hover{{background:var(--color-accent);color:#fff}}
 .card-thumb{{width:100%;height:140px;overflow:hidden;flex-shrink:0;}}
 .card-thumb img{{width:100%;height:100%;object-fit:cover;display:block;}}
 .card-thumb-grad{{display:flex;align-items:flex-end;padding:var(--space-4);}}
