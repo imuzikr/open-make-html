@@ -95,10 +95,11 @@ read `references/implementation-templates.md` and copy the relevant template ver
 
 ## Output format
 
-1. Create the HTML as a **downloadable file artifact** named `YYYY-MM-DD-slug.html`
-   (e.g. `2026-05-19-ontology-intro.html`). Do NOT wrap in a code block.
-2. Make it genuinely polished — real content, working interactions, obvious hierarchy.
-3. After creating the file, immediately ask:
+1. Render the HTML as a **live preview artifact** so the user can see it immediately.
+2. Also provide it as a **downloadable file artifact** named `YYYY-MM-DD-slug.html`
+   (e.g. `2026-05-19-ontology-intro.html`).
+3. Make it genuinely polished — real content, working interactions, obvious hierarchy.
+4. After rendering, immediately ask:
 
 ---
 
